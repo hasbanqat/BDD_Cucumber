@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         For not to run any tag not @SanityTest [Except sanity all of the tag will run]
 
         2 more attributes for cucumberOptions: for dryrun=true means to check the mapping feature to stepdefinition
-        and monochrome = true the same thing with a good looking output
+        and monochrome = true the same thing with a good looking output and.
         */
         glue = "stepDefinition",tags = "", stepNotifications = true,
         plugin={"pretty","html:target/results.html","json:target/results.json", "junit:target/results.xml"}
